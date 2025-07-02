@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 THEHIVE_URL = os.getenv("THEHIVE_URL", "http://localhost:9000")
 THEHIVE_API_KEY = os.getenv("THEHIVE_API_KEY", "mCKulcObLAPTzsP6bxDi5Evbn78tBk7t")
-VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY", "6cacd21b6231f4304e2d8c87e877513f3523e5f0b4d594681a448fa71ca04053")
+VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY", "6cacd21b6231f4304e2d8c87e877f3523e5f0b4d594681a448fa71ca04053") #MOCK api my dorker guy:) 
 ORGANISATION = os.getenv("THEHIVE_ORGANISATION", "Ynov_Corp")
 
 def is_public_ip(ip):
